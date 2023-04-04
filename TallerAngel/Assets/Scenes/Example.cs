@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Example : MonoBehaviour
 {
+    int variable = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,7 @@ public class Example : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(variable!=10)
+        Debug.Log(variable);
     }
 }
